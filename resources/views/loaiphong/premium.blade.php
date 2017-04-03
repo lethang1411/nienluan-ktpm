@@ -44,7 +44,7 @@
 		<tr>
 			<th>
 				<i class="glyphicon glyphicon-menu-right" ></i>
-				Kích thước 
+				Diện tích
 			</th>
 			<td>
 				<?php 
@@ -83,6 +83,6 @@
 		</tr>
 	</table>
 	<p style="margin-top: 20px">
-	Phòng nghỉ ven hồ được thiết kế hiện đại được bao quanh bằng bức tường kính trong suốt giúp du khách tận hưởng cảnh đẹp thiên nhiên xung quanh ngay trong phòng nghỉ với các trang thiết bị cao cấp, hiện đại và riêng biệt. Từ phòng Junior, du khách có thể nhìn ngắm vườn hoa đang tỏa sắc dưới nắng vàng nhẹ dịu xuyên qua kẽ hở giữa những tán thông già cao vút hay thả mình theo bức tranh thiên nhiên hữu tình của Hồ Tuyền Lâm.
+	Tại Terracotta Đà Lạt, chúng tôi còn phục vụ các loại phòng riêng tại Villas dành cho gia đình nhỏ hay những nhóm du khách riêng lẻ muốn tận hưởng không gian riêng biệt với loại phòng Premium bao gồm đầy đủ các tiện nghi sang trọng, đẳng cấp ngay trong mỗi căn Villa khác nhau tùy theo nhu cầu của khách hàng. 
 	</p>
 @stop

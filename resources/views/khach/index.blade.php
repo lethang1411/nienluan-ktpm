@@ -14,17 +14,17 @@
 			    <div class="panel-GioiThieuPhong">
 			      	<img src="{{ asset('public/img/room/standard1.jpg') }}" alt="">
 			        <h3 class="text-LoaiPhong">Phòng Standard</h3>
+			        <?php
+			        	$loaiphong = DB::table('loai_phong')->where('tenlp','Standard')->first();
+			        ?>
 			        <table class="table-LoaiPhong">
 						<tr>
 							<th>
 								<i class="glyphicon glyphicon-menu-right"></i>
-								Kích thước 
+								Diện tích 
 							</th>
 							<td>							
-								<?php														
-	                                $kq = DB::table('loai_phong')->select('dientich')->where('tenlp','Standard')->first();                     
-									echo $kq->dientich . " m<sup>2</sup>";
-								?>	
+								{!! $loaiphong->dientich !!} m<sup>2</sup>
 							</td>							
 						</tr>							
 						<tr>
@@ -33,10 +33,7 @@
 								Sức chứa
 							</th>
 							<td>
-								<?php														
-	                                $kq = DB::table('loai_phong')->select('succhua')->where('tenlp','Standard')->first();                        
-									echo $kq->succhua . " khách</sup>";
-								?>	
+								{!! $loaiphong->succhua !!} khách
 							</td>
 						</tr>
 						<tr>
@@ -45,10 +42,7 @@
 								Giường
 							</th>
 							<td>
-								<?php														
-	                                $kq = DB::table('loai_phong')->select('giuong')->where('tenlp','Standard')->first();                        
-									echo $kq->giuong;
-								?>	
+								{!! $loaiphong->giuong !!}
 							</td>
 						</tr>
 					</table>
@@ -60,17 +54,17 @@
 			    <div class="panel-GioiThieuPhong">
 			      	<img src="{{ asset('public/img/room/superior1.jpg') }}" alt="">
 			        <h3 class="text-LoaiPhong">Phòng Superior</h3>
+			        <?php
+			        	$loaiphong = DB::table('loai_phong')->where('tenlp','Superior')->first();
+			        ?>
 			        <table class="table-LoaiPhong">
 						<tr>
 							<th>
 								<i class="glyphicon glyphicon-menu-right"></i>
-								Kích thước 
+								Diện tích 
 							</th>
 							<td>							
-								<?php														
-	                                $kq = DB::table('loai_phong')->select('dientich')->where('tenlp','Superior')->first();                     
-									echo $kq->dientich . " m<sup>2</sup>";
-								?>	
+								{!! $loaiphong->dientich !!} m<sup>2</sup>
 							</td>							
 						</tr>							
 						<tr>
@@ -79,10 +73,7 @@
 								Sức chứa
 							</th>
 							<td>
-								<?php														
-	                                $kq = DB::table('loai_phong')->select('succhua')->where('tenlp','Superior')->first();                        
-									echo $kq->succhua . " khách</sup>";
-								?>	
+								{!! $loaiphong->succhua !!} khách
 							</td>
 						</tr>
 						<tr>
@@ -91,10 +82,7 @@
 								Giường
 							</th>
 							<td>
-								<?php														
-	                                $kq = DB::table('loai_phong')->select('giuong')->where('tenlp','Superior')->first();                        
-									echo $kq->giuong;
-								?>	
+								{!! $loaiphong->giuong !!}
 							</td>
 						</tr>
 					</table>
@@ -107,17 +95,17 @@
 			    <div class="panel-GioiThieuPhong">
 			      	<img src="{{ asset('public/img/room/deluxe1.jpg') }}" alt="">
 			        <h3 class="text-LoaiPhong">Phòng Deluxe</h3>
+			        <?php
+			        	$loaiphong = DB::table('loai_phong')->where('tenlp','Deluxe')->first();
+			        ?>
 			        <table class="table-LoaiPhong">
 						<tr>
 							<th>
 								<i class="glyphicon glyphicon-menu-right"></i>
-								Kích thước 
+								Diện tích 
 							</th>
 							<td>							
-								<?php														
-	                                $kq = DB::table('loai_phong')->select('dientich')->where('tenlp','Deluxe')->first();                     
-									echo $kq->dientich . " m<sup>2</sup>";
-								?>	
+								{!! $loaiphong->dientich !!} m<sup>2</sup>
 							</td>							
 						</tr>							
 						<tr>
@@ -126,10 +114,7 @@
 								Sức chứa
 							</th>
 							<td>
-								<?php														
-	                                $kq = DB::table('loai_phong')->select('succhua')->where('tenlp','Deluxe')->first();                        
-									echo $kq->succhua . " khách</sup>";
-								?>	
+								{!! $loaiphong->succhua !!} khách
 							</td>
 						</tr>
 						<tr>
@@ -138,10 +123,7 @@
 								Giường
 							</th>
 							<td>
-								<?php														
-	                                $kq = DB::table('loai_phong')->select('giuong')->where('tenlp','Deluxe')->first();                        
-									echo $kq->giuong;
-								?>	
+								{!! $loaiphong->giuong !!}
 							</td>
 						</tr>
 					</table>
@@ -153,20 +135,18 @@
 			<div class="col-sm-6 col-md-4 col-md-offset-2">
 			    <div class="panel-GioiThieuPhong">
 			      	<img src="{{ asset('public/img/room/premium1.jpg') }}" alt="">
-
-
 			        <h3 class="text-LoaiPhong">Phòng Premium - Villa</h3>
+			        <?php
+			        	$loaiphong = DB::table('loai_phong')->where('tenlp','Premium-Villa')->first();
+			        ?>
 			        <table class="table-LoaiPhong">
 						<tr>
 							<th>
 								<i class="glyphicon glyphicon-menu-right"></i>
-								Kích thước 
+								Diện tích 
 							</th>
 							<td>							
-								<?php														
-	                                $kq = DB::table('loai_phong')->select('dientich')->where('tenlp','Premium-Villa')->first();                     
-									echo $kq->dientich . " m<sup>2</sup>";
-								?>	
+								{!! $loaiphong->dientich !!} m<sup>2</sup>
 							</td>							
 						</tr>							
 						<tr>
@@ -175,10 +155,7 @@
 								Sức chứa
 							</th>
 							<td>
-								<?php														
-	                                $kq = DB::table('loai_phong')->select('succhua')->where('tenlp','Premium-Villa')->first();                        
-									echo $kq->succhua . " khách</sup>";
-								?>	
+								{!! $loaiphong->succhua !!} khách
 							</td>
 						</tr>
 						<tr>
@@ -187,10 +164,7 @@
 								Giường
 							</th>
 							<td>
-								<?php														
-	                                $kq = DB::table('loai_phong')->select('giuong')->where('tenlp','Premium-Villa')->first();                        
-									echo $kq->giuong;
-								?>	
+								{!! $loaiphong->giuong !!}
 							</td>
 						</tr>
 					</table>
@@ -202,17 +176,17 @@
 			    <div class="panel-GioiThieuPhong">
 			      	<img src="{{ asset('public/img/room/junior1.jpg') }}" alt="">
 			        <h3 class="text-LoaiPhong">Phòng Junior - Villa</h3>
+			        <?php
+			        	$loaiphong = DB::table('loai_phong')->where('tenlp','Junior-Villa')->first();
+			        ?>
 			        <table class="table-LoaiPhong">
 						<tr>
 							<th>
 								<i class="glyphicon glyphicon-menu-right"></i>
-								Kích thước 
+								Diện tích 
 							</th>
 							<td>							
-								<?php														
-	                                $kq = DB::table('loai_phong')->select('dientich')->where('tenlp','Junior-Villa')->first();                     
-									echo $kq->dientich . " m<sup>2</sup>";
-								?>	
+								{!! $loaiphong->dientich !!} m<sup>2</sup>
 							</td>							
 						</tr>							
 						<tr>
@@ -221,10 +195,7 @@
 								Sức chứa
 							</th>
 							<td>
-								<?php														
-	                                $kq = DB::table('loai_phong')->select('succhua')->where('tenlp','Junior-Villa')->first();                        
-									echo $kq->succhua . " khách</sup>";
-								?>	
+								{!! $loaiphong->succhua !!} khách
 							</td>
 						</tr>
 						<tr>
@@ -233,10 +204,7 @@
 								Giường
 							</th>
 							<td>
-								<?php														
-	                                $kq = DB::table('loai_phong')->select('giuong')->where('tenlp','Junior-Villa')->first();                        
-									echo $kq->giuong;
-								?>	
+								{!! $loaiphong->giuong !!}
 							</td>
 						</tr>
 					</table>

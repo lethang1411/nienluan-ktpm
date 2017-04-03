@@ -48,7 +48,7 @@
 		<tr>
 			<th>
 				<i class="glyphicon glyphicon-menu-right" ></i>
-				Kích thước 
+				Diện tích 
 			</th>
 			<td>
 				<?php 

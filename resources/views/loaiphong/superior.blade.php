@@ -49,7 +49,7 @@
 		<tr>
 			<th>
 				<i class="glyphicon glyphicon-menu-right" ></i>
-				Kích thước 
+				Diện tích 
 			</th>
 			<td>
 				<?php 
@@ -95,7 +95,7 @@
 		</tr>
 	</table>
 	<p style="margin-top: 15px">
-	Với không gian ấm áp và gần gũi, khu vực phòng Deluxe nép mình dưới những rạng thông xanh, phóng tầm nhìn tuyệt đẹp ra Hồ Tuyền Lâm.
+	Ngoài trang thiết bị tiện nghi, sang trọng, nội thất bên trong bao gồm những chất liệu hài hòa với thiên nhiên được bố  trí giản dị nhưng vẫn thể hiện phong cách sang trọng kiểu châu Âu. Các bức tranh hay ảnh nghệ thuật chính là điểm nhấn cho không gian nghỉ ngơi, thư giãn lý tưởng tại Terracotta Đà Lạt.
 	</p>
 @stop
 

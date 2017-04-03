@@ -48,7 +48,7 @@
 		<tr>
 			<th>
 				<i class="glyphicon glyphicon-menu-right" ></i>
-				Kích thước 
+				Diện tích 
 			</th>
 			<td>
 				<?php 
@@ -94,7 +94,7 @@
 		</tr>
 	</table>
 	<p style="margin-top: 15px">
-	Với không gian ấm áp và gần gũi, khu vực phòng Deluxe nép mình dưới những rạng thông xanh, phóng tầm nhìn tuyệt đẹp ra Hồ Tuyền Lâm.
+	Không gian thoáng đãng, thiết kế ấm cúng, trang thiết bị hiện đại, sang trọng với đầy đủ tiện nghi phục vụ cho nhu cầu nghỉ ngơi, thư giãn của du khách.
 	</p>
 @stop
 
